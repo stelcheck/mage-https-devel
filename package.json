@@ -1,6 +1,6 @@
 {
   "name": "mage-https-devel",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Toolchain for enabling the use of HTTPS during local development",
   "main": "index.js",
   "bin": {
