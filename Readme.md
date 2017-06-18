@@ -54,7 +54,8 @@ server:
 ```javascript
 var mage = require('mage')
 
-// This will start the proxy only when process.env.SSL === true
+// This will start the proxy only when server.clientHost.httpsProxy is
+// set to true in your configuration
 var https = require('mage-https-devel')
 https.setup(mage)
 ```
