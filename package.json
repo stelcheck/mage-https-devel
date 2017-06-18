@@ -1,0 +1,39 @@
+{
+  "name": "mage-https-devel",
+  "version": "0.0.1",
+  "description": "Toolchain for enabling the use of HTTPS during local development",
+  "main": "index.js",
+  "bin": {
+    "mage-ssl-create": "./bin/mage-ssl-create.js"
+  },
+  "scripts": {
+    "test": "eslint --ext .js,.json . && git-signed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mage/mage-https-devel.git"
+  },
+  "keywords": [
+    "mage",
+    "https",
+    "ssl"
+  ],
+  "author": "Marc Trudel <mtrudel@wizcorp.jp>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mage/mage-https-devel/issues"
+  },
+  "homepage": "https://github.com/mage/mage-https-devel#readme",
+  "dependencies": {
+    "async": "2.4.1",
+    "create-cert": "^1.0.4",
+    "http-proxy": "1.16.2",
+    "mkdirp": "0.5.1"
+  },
+  "devDependencies": {
+    "eslint": "4.0.0",
+    "eslint-plugin-json": "1.2.0",
+    "git-message": "1.0.3",
+    "git-signed": "0.0.2"
+  }
+}
