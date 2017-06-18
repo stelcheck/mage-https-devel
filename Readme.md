@@ -74,13 +74,9 @@ locally install it and mark it as trusted.
 
 ### Running your instance with the HTTPS proxy
 
-```shell
-npm run develop:ssl
-```
-
-This will start your MAGE instance, but additionally start an additional
-server on port 8443. This port will speak HTTPS, and will proxy all requests
-to your local instance.
+Simply start your MAGE server the same way you would normally start it;
+once MAGE is set up, this module will automatically start an HTTPS proxy server
+on port 8443.
 
 License
 -------
